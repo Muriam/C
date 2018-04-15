@@ -12,7 +12,7 @@ int main()
 	    
     do
     {
-    printf("введите число ", a);
+    printf("введите число ");
     scanf("%d", &a);
     printf("%d ", a+1);
          
