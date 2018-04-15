@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <conio.h>
+#include <locale.h> 
+#include <string.h>
+ 
+int main()
+{
+	setlocale(LC_ALL, "rus");
+	 
+  char s[4], v;
+	int a;	    
+	    
+	do
+	{
+    printf("введите число ", a);
+    scanf("%d", &a);
+    printf("%d ", a+1);
+         
+ 	printf("\nѕродолжить?<y><n>\n");
+    v = getch();
+    } while(v!='n');
+ 
+  getch;
+	return 0;
+}
