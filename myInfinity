@@ -5,21 +5,21 @@
  
 int main()
 {
-	setlocale(LC_ALL, "rus");
+  setlocale(LC_ALL, "rus");
 	 
-  char s[4], v;
-	int a;	    
+    char  v;
+    int a;	    
 	    
-	do
-	{
+    do
+    {
     printf("введите число ", a);
     scanf("%d", &a);
     printf("%d ", a+1);
          
- 	printf("\nѕродолжить?<y><n>\n");
+    printf("\nпродолжить?<y><n>\n");
     v = getch();
     } while(v!='n');
  
-  getch;
-	return 0;
+    getch;
+    return 0;
 }
