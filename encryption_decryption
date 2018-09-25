@@ -1,7 +1,7 @@
 /* 
-   чужой код, разобраться и доработать
-   шифрование и дешифрование
-   https://www.guardianelinks.com/threads/shifr-cezarja-na-jazyke-s.438/
+    чужой код, разобраться и доработать
+    шифрование и дешифрование
+    https://www.guardianelinks.com/threads/shifr-cezarja-na-jazyke-s.438/
 */
 #include <stdio.h>
 #include <locale>
